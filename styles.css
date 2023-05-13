@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     position: relative;
     left: 0;
@@ -127,6 +131,12 @@ li {
 }
 
 .portfolio {
+    text-align: center;
+    font-size: 2rem;
+    color:crimson
+}
+
+.contact{
     text-align: center;
     font-size: 2rem;
     color:crimson
