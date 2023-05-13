@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 1005;
+    height: 80px;
+}
+
+header h4{
+    position: absolute;
+    left: 10%;
+    bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+
+
+.header-links {
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+}
+
+.header-links li {
+    color: white;
+    display: inline;
+    float: right;
+    padding: 15px;
+    font-size: 16px;
+}
+
+/* Splash Screen */
+/* 
+.intro{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #161616;
+    transition: 1s;
+
+}
+
+.logo-header{
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+.logo{
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+}
+
+.logo.active{
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+
+.logo-fade{
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+} */
+
+/* KEYFRAMES */
+/* @keyframes fade-up {
+   0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+    }
+    100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+    }
+} */
+
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+.section{
+    width: 100%;
+    height: 80vh;
+    border: 5px solid black;
+}
+
+.main-part{
+    position:relative;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.role{
+    position: absolute;
+    top: 200px;
+    animation: fade-up 15s;
+}
+
+.aboutme {
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.about{
+    color: red;
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+.portfolio {
+    text-align: center;
+    font-size: 2rem;
+    color:crimson
+}
