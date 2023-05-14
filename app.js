@@ -26,15 +26,4 @@ window.addEventListener('DOMContentLoaded', ()=>{
         }, 2300)
     })
 })
-
-// Smooth scrolling when clicking on navbar links
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-  
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-        behavior: 'smooth'
-      });
-    });
-  });
   
